@@ -15,10 +15,36 @@ h1 {
 	font-family: 'Chakra Petch', sans-serif;
 	font-size:22px;
 }
+
+h2 {
+	color: #fcf6eb;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+	text-align: left;
+}
+
 p {
 	color: #fcf6eb;
 	font-family: 'Raleway', sans-serif;
 	font-size:16px;
+}
+
+ul {
+	color: #fcf6eb;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+}
+
+
+a {
+	color: #be32ff;
+	!important
+}
+
+.clearfix {
+	background: rgba(42, 41, 42, 0.7);
+	border-radius: 10px;
+	padding: 20px;
 }
 
  /* Style the navigation menu */
@@ -50,6 +76,7 @@ p {
 	right: 0;
 	top: 0;
 	margin-right: 15px;
+	padding: 10px;
   }
 
   /* Add a grey background color on mouse-over */
@@ -57,3 +84,8 @@ p {
 	background-color: #ddd;
 	color: black;
   }
+
+	.footer{
+		padding: 10px;
+		bottom: 0px;
+	}
