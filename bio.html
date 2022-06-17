@@ -3,59 +3,108 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="lightbox.css">
 	<link rel='icon' href='favicon.png' type='image/png' >
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!--font links, i really need to combine a bunch of these :(-->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Rubik&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/734c31e08c.js" crossorigin="anonymous"></script>
-	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 	<!--Other external stylesheet garbage to make website go brrrr-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<title>NATE_HARDY</title>
+	<title>NATE HARDY</title>
 </head>
-
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #1e1125;">
-		<a class="navbar-brand" style="color:#be32ff; font-family: 'Chakra Petch', sans-serif; font-size:21px; margin-left: 15px;">\\\ NATE HARDY</a>
-			<ul class="navbar-nav">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-					<i class="fas fa-bars" style="color:#be32ff;"></i>
-				  </button>
-				<div class="collapse" id="navbarToggleExternalContent">
-					<li class="nav-item active">
-						<a class="nav-link active" aria-current="page" href="index.html" style="color:#6f0d96; font-family: 'Chakra Petch', sans-serif; font-size:18px; transition: background-color, #be32ff 1.0s; !important">HOME</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link active" aria-current="page" href="bio.html" style="color:#6f0d96; font-family: 'Chakra Petch', sans-serif; font-size:18px; transition: background-color, #be32ff 1.0s; !important">BIO & INFO</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link active" aria-current="page" href="contact.html" style="color:#6f0d96; font-family: 'Chakra Petch', sans-serif; font-size:18px; transition: background-color, #be32ff 1.0s; !important">CONTACT</a>
-					</li>
-				</div>
-				<!--mobile version of nav-->
-				<div class="collapse navbar-collapse" id="navbar">
-				<li class="nav-item active">
-					<a class="nav-link active" aria-current="page" href="index.html" style="color:#6f0d96; font-family: 'Chakra Petch', sans-serif; font-size:18px; transition: background-color, #be32ff 1.0s; !important">HOME</a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link active" aria-current="page" href="bio.html" style="color:#6f0d96; font-family: 'Chakra Petch', sans-serif; font-size:18px; transition: background-color, #be32ff 1.0s; !important">BIO & INFO</a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link active" aria-current="page" href="contact.html" style="color:#6f0d96; font-family: 'Chakra Petch', sans-serif; font-size:18px; transition: background-color, #be32ff 1.0s; !important">CONTACT</a>
-				</li>
-			</div>
-</nav>
 <body>
-  <div class="container" style="margin-top: 80px;"><center>
-    <div class="clearfix">
-      <h1 style="text-align: left;">Some stuff about me</h1>
-      <div class="container">
-        <h2>Bio</h2>
-        </div>
+	<div class="show-mobile">
+		<div class="pos-f-t">
+			<div class="collapse" id="navbarToggleExternalContent">
+				<div class="p-4" style="background: #171717;">
+				<div class="nav-list">
+					<h2>Portfolio</h2>
+					<ul class="nav">
+						<li class="nav-item"><a href="graphic.html" class="nav-link active" style="color: #b23601;">Graphic Design</a></li>
+						<li class="nav-item"><a href="art.html" class="nav-link active" style="color: #b23601;">2D Digital Art</a></li>
+						<li class="nav-item"><a href="3d.html" class="nav-link active" style="color: #b23601;">3D Art and Design</a></li>
+						<li class="nav-item"><a href="photo.html" class="nav-link active" style="color: #b23601;">Photography</a></li>
+						<li class="nav-item"><a href="./writing/writing.html" class="nav-link active" style="color: #b23601; margin-right: 200px;">Writing</a></li>
+					</ul>
+				</div>
+				<div class="nav-list">
+					<h2>Projects</h2>
+					<ul class="nav">
+						<li class="nav-item"><a href="https://biocom.tumblr.com/" class="nav-link active" style="color: #186a83;">BioCom Research Labs</a></li>
+						<li class="nav-item"><a href="#" class="nav-link active" style="color: #186a83;">Virtual Worlds [WIP]</a></li>
+						<li class="nav-item"><a href="#" class="nav-link active" style="color: #186a83;">Others... [WIP]</a></li>
+					</ul>
+				</div>
+				<div class="nav-list">
+					<hr></hr>
+					<ul class="nav">
+						<li class="nav-item"><a href="#" class="nav-link active" style="color: #bbbbbb; margin-right: 30px;"> Biography</a></li>
+						<li class="nav-item"><a href="mailto:subspacenate@gmail.com" class="nav-link active" style="color: #bbbbbb;"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+						<li class="nav-item"><a href="https://www.instagram.com/subspacenate/" class="nav-link active" style="color: #bbbbbb;"><i class="fab fa-instagram"></i> Instagram</a></li>
+						<li class="nav-item"><a href="https://twitter.com/SubspaceNate" class="nav-link active" style="color: #bbbbbb;"><i class="fab fa-twitter"></i> Twitter</a></li>
+						<li class="nav-item"><a href="https://www.youtube.com/channel/UCCyaTFgeQmElgMY-RJpF71Q" class="nav-link active" style="color: #bbbbbb;"><i class="fab fa-youtube"></i> YouTube</a></li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		<nav class="navbar navbar-dark justify-content-between" style="background: #171717;">
+			<div style="margin-left: 10px;">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" style="padding: 3px;" >
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+			<div class="navbar-brand">
+				<a href="index.html"><span><img src="image/trans-01-c.png" style="width: 250px; padding: 5px;"></img></span></a>
+			</div>
+		</nav>
+	  	</div>
+	</div>
+	<div class="wrapper">
+		<div class="hidden-mobile">
+			<nav id="sidebar">
+				<div class="sidebar-header">
+					<a href="index.html"><img src="image/trans-01-c.png" style="width: 340px;"></img></a>
+				</div>
+				<div class="nav-list">
+					<h2>Portfolio</h2>
+					<ul class="nav">
+						<li class="nav-item"><a href="graphic.html" class="nav-link active" style="color: #b23601;">Graphic Design</a></li>
+						<li class="nav-item"><a href="art.html" class="nav-link active" style="color: #b23601;">2D Digital Art</a></li>
+						<li class="nav-item"><a href="3d.html" class="nav-link active" style="color: #b23601;">3D Art and Design</a></li>
+						<li class="nav-item"><a href="photo.html" class="nav-link active" style="color: #b23601; margin-right: 100px;">Photography</a></li>
+						<li class="nav-item"><a href="./writing/writing.html" class="nav-link active" style="color: #b23601;">Writing</a></li>
+					</ul>
+				</div>
+				<div class="nav-list">
+					<h2>Projects</h2>
+					<ul class="nav">
+						<li class="nav-item"><a href="https://biocom.tumblr.com/" class="nav-link active" style="color: #186a83;">BioCom Research Labs</a></li>
+						<li class="nav-item"><a href="#" class="nav-link active" style="color: #186a83;">Virtual Worlds [WIP]</a></li>
+						<li class="nav-item"><a href="#" class="nav-link active" style="color: #186a83;">Others... [WIP]</a></li>
+					</ul>
+				</div>
+				<div class="nav-list">
+					<hr></hr>
+					<ul class="nav">
+						<li class="nav-item"><a href="#" class="nav-link active" style="color: #bbbbbb; margin-right: 30px;"> Biography</a></li>
+						<li class="nav-item"><a href="mailto:subspacenate@gmail.com" class="nav-link active" style="color: #bbbbbb;"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+						<li class="nav-item"><a href="https://www.instagram.com/subspacenate/" class="nav-link active" style="color: #bbbbbb;"><i class="fab fa-instagram"></i> Instagram</a></li>
+						<li class="nav-item"><a href="https://twitter.com/SubspaceNate" class="nav-link active" style="color: #bbbbbb;"><i class="fab fa-twitter"></i> Twitter</a></li>
+						<li class="nav-item"><a href="https://www.youtube.com/channel/UCCyaTFgeQmElgMY-RJpF71Q" class="nav-link active" style="color: #bbbbbb;"><i class="fab fa-youtube"></i> YouTube</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="padded-content">
+      		<div class="container">
+        		<h3 style="margin-top: 1vw;">Biography</h3>
+        	</div>
 				<div class="container">
 						<div class="row align-items-center">
 			        <div class="col-md-9" style=" text-align:left; margin-top:20px;">
@@ -80,7 +129,7 @@
 						</div>
           </div>
           <div class="container" style="margin-top:50px; text-align:left;">
-            <h2>Current Setup</h2>
+            <h3>Current Setup</h3>
           </div>
 					<div class="container">
 						<div class="row align-items-center" >
@@ -116,12 +165,5 @@
 				</div>
       </div>
     </div>
-	</div>
-</div>
 
-    <div class="footer">
-  		<div class="container">
-  				<img src="image/computer.gif"><p style="font-size: 10pt; margin-top: 2px;">Last edit made on May 15, 2022 | There are brighter days ahead 💜</p>
-  		</div>
-  	</div>
 </body>
