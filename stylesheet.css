@@ -67,7 +67,7 @@ hr {
 .wrapper {
     display: flex;
     width: 100%;
-	background-color: #e4e0de;
+	background-color: #fcfcfc;
 }
 
 .sidebar-header {
@@ -76,6 +76,13 @@ hr {
 
 .content {
 	margin: 20px;
+	width: 100vw;
+	background-color: #fcfcfc;
+	display: table-cell;
+}
+
+.content {
+	margin-top: 20px;
 	width: 100vw;
 	display: table-cell;
 }
